@@ -11,3 +11,6 @@ Mixer has been replaced with floating point version.
 | Time enwik8|1116.70 sec| 1577.26 sec|
 | Compressed size enwik9|164508919|164443403|
 | Mem|1539 MB|1539 MB| 
+
+
+When using fast exp approximate function in mixer p() time is about 126 seconds on enwik8, compression is still better (19751025).
